@@ -18,8 +18,12 @@ from django.contrib import admin
 from django.urls import path,include
 from django.conf import settings
 from django.conf.urls.static import static
+from django.http import HttpResponse
 
+def index(request):
+    return HttpResponse("Backend API is running.")
 urlpatterns = [
+    path('', index), 
     path('admin/', admin.site.urls),
     path('api/', include('app.urls'))
 
