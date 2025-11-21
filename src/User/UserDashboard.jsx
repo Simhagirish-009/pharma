@@ -7,7 +7,7 @@ import DeliveryOrderUser from './DeliveryOrderUser';
 import PendingUser from './PendingUser';
 import PaymentUser from './PaymentUser';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import projectlog from '../Assets/images/projectlog.png';
+// import projectlog from '../Assets/images/projectlog.png';
 
 const UserDashboard = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);

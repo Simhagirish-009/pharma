@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import projectlog from '../Assets/images/projectlog.png';
+// import projectlog from '../Assets/images/projectlog.png';
 import girlbg from '../Assets/images/girlbg.jpg';
 import med from '../Assets/images/girlbg.jpg';
 
