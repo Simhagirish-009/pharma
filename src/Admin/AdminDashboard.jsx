@@ -4,7 +4,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Button,Modal } from "react-bootstrap";
-// import projectlog from '../Assets/images/projectlog.png';
+import projectlog from '../assets/images/projectlog.png';
 // Import AddShopAdmin and AddMedAdmin components
 import AddShopAdmin from "./AddShopAdmin"; // Ensure the correct path
 import AddMedAdmin from "./AddMedAdmin";   // Ensure the correct path
